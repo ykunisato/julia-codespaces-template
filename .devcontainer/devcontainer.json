@@ -2,5 +2,14 @@
   "image": "mcr.microsoft.com/devcontainers/universal:2",
    "features": {
     "ghcr.io/julialang/devcontainer-features/julia:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "cameronbieganek.julia-color-themes",
+        "0h7z.vscode-julia-format",
+        "colinfang.markdown-julia"
+      ]
+    }
   }
 }
